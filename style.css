@@ -1,0 +1,124 @@
+/* Global Styles */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+}
+
+.modal {
+  width: 800px;
+  height: 500px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+  border-radius: 10px;
+}
+
+.modals-wrapper {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.player-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.computer-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.score-section {
+  background: #228b22;
+  width: 200px;
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.player-score {
+  font-size: 24px;
+  margin-top: 5px;
+}
+
+.computer-score {
+  font-size: 24px;
+  margin-top: 5px;
+}
+.player-select {
+  font-size: 40px;
+}
+
+.computer-select {
+  font-size: 40px;
+}
+
+.result {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  font-size: 40px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.buttons-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 2rem;
+  margin-top: 90px;
+}
+
+.buttons {
+  background: none;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 24px;
+  cursor: pointer;
+  color: #fff;
+  font-weight: bold;
+}
+
+.rock-button {
+  background: #5a4d41;
+  transition: all 0.1s linear;
+}
+
+.rock-button:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.paper-button {
+  background: #93d413;
+  transition: all 0.1s linear;
+}
+
+.paper-button:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.scissors-button {
+  background: #895b6d;
+  transition: all 0.1s linear;
+}
+
+.scissors-button:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
