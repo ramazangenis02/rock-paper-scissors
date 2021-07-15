@@ -1,1 +1,1 @@
-This project to created using javascript.
+A simple rock paper scissors game to created using javascript.
